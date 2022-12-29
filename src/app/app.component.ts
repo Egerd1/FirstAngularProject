@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-angular-homework';
+  title: string = 'my-angular-homework';
+
+num: number = 0;
+
+plus(){
+  this.num++;
+}
+
+minus(){
+  this.num--;
+}
 }

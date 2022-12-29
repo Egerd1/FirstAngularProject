@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("assets/angularpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.p1{
+    font-size: 75px;
+    transition: all 0.5s ease-in;
+}
+
+.p1:hover{
+    transform: scale(1.2);
+    text-shadow: 2px 2px white;
+}
+
+.custom{
+    width: inherit;
+
+}
+
+.custom > h1{
+    font-size: 250px;
+    
+}
+
+h6{
+    font-size: 48px;
+    transition: all 0.5s ease-in;
+}
+
+h6:hover{
+    transform: scale(1.2);
+    text-shadow: 2px 2px white;
+}
